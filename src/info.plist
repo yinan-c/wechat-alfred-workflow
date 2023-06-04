@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>tkkk.wechatPlugin</string>
-	<key>category</key>
-	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>0D88BE16-D0D5-4489-B54E-9C3A9C7FB187</key>
@@ -185,9 +183,9 @@
 			<key>config</key>
 			<dict>
 				<key>alfredfiltersresults</key>
-				<false/>
+				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>argumenttreatemptyqueryasnil</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -209,7 +207,7 @@
 				<key>runningsubtext</key>
 				<string>搜索中…</string>
 				<key>script</key>
-				<string>python3 search.py "{query}"</string>
+				<string>python3 search.py</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -242,11 +240,9 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>-1</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>524288</integer>
-				<key>hotstring</key>
-				<string>double tap</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -362,69 +358,69 @@
 		<key>0D88BE16-D0D5-4489-B54E-9C3A9C7FB187</key>
 		<dict>
 			<key>xpos</key>
-			<integer>510</integer>
+			<real>510</real>
 			<key>ypos</key>
-			<integer>190</integer>
+			<real>190</real>
 		</dict>
 		<key>7DECB235-5455-435D-90AF-1A51C26046DD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>220</integer>
+			<real>220</real>
 			<key>ypos</key>
-			<integer>100</integer>
+			<real>100</real>
 		</dict>
 		<key>807CF904-8DD6-45B7-B6FE-B0D7C190CC83</key>
 		<dict>
 			<key>xpos</key>
-			<integer>430</integer>
+			<real>430</real>
 			<key>ypos</key>
-			<integer>220</integer>
+			<real>220</real>
 		</dict>
 		<key>951BA0D4-BF57-48C9-B977-D9A7C8A398A1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>730</integer>
+			<real>730</real>
 			<key>ypos</key>
-			<integer>10</integer>
+			<real>15</real>
 		</dict>
 		<key>C06A928C-83DB-4998-A6C9-04DDE70705A3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<real>40</real>
 			<key>ypos</key>
-			<integer>100</integer>
+			<real>100</real>
 		</dict>
 		<key>C7F97CC1-A708-4992-9A14-DBCE8FED26BE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>430</integer>
+			<real>430</real>
 			<key>ypos</key>
-			<integer>40</integer>
+			<real>40</real>
 		</dict>
 		<key>DF9DFCC2-CC36-4945-9B04-E02F397E7E7D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>930</integer>
+			<real>930</real>
 			<key>ypos</key>
-			<integer>10</integer>
+			<real>15</real>
 		</dict>
 		<key>EBC34E72-65EE-4D6A-8E7C-BA6D06F4A3A7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>860</integer>
+			<real>860</real>
 			<key>ypos</key>
-			<integer>190</integer>
+			<real>190</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>baseUrl</key>
 		<string>http://127.0.0.1:57270/wechat-plugin/</string>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>3.0</string>
+	<string>3.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/TKkk-iOSer</string>
 </dict>
