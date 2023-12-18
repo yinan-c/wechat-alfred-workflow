@@ -2,12 +2,13 @@
 import json,sys,os
 from workflow import Workflow
 import web
+import requests
 
 def main(wf):
     baseUrl = os.getenv('baseUrl')
     url = baseUrl + 'user?keyword=' 
     try:
-        userList = web.get(url)
+        userList = requests.get(url).json()
         if len(userList) > 0:
             for item in userList:
                 title = item['title']
