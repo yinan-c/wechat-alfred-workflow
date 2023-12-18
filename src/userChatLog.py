@@ -2,7 +2,7 @@
 import json,sys,os
 from workflow import Workflow
 import web
-
+import requests
 
 def main(wf):
     query = sys.argv[1].encode()
@@ -10,7 +10,7 @@ def main(wf):
     baseUrl = os.getenv('baseUrl')
     url = baseUrl + 'chatlog?userId=' + userId + '&count=60'
     try:
-        userList = web.get(url=url)
+        userList = requests.get(url).json()
         if len(userList) > 0:
             wf.store_data('wechat_send_content',query)
             for item in userList:
